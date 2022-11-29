@@ -1,6 +1,7 @@
 from datetime import *
 from data import *
 from bhaikadosth import *
+import re
 
 
 def submissions_and_comments(subreddit, **kwargs):
@@ -18,7 +19,14 @@ def isComment(obj):
     return isinstance(obj,praw.models.Comment)
 
 def triggered(text):
-    return "sallu bot" in text or "sallu bhot" in text or "sallu b" in text
+    key = [ ".*\\bsallu bot\\b.*", ".*\\bsallu bhot\\b.*", ".*\\bsallu b\\b.*"]
+    # Make a regex that matches if any of our regexes match.
+    combined = "(" + ")|(".join(key) + ")"
+
+    if re.search(combined, text):
+        return True
+    return False
+
 
 
 def checkTime(obj):

@@ -1,6 +1,6 @@
 #Specific Keyword Response
 trigger_dictionary = {
-    ("hit-n-run", "driver","run over","driver"): ["My driver, {}, was driving the car when the mishap occurred","Aap devil ke peeche, devil aapke peeche - too much fun!","Badminton court jao, tennis court jao, food court jao... lekin woh court mat jaana"],
+    ("hit-n-run","run over","hit and run"): ["My driver, {}, was driving the car when the mishap occurred","Aap devil ke peeche, devil aapke peeche - too much fun!","Badminton court jao, tennis court jao, food court jao... lekin woh court mat jaana"],
     ("black buck","blackbuck", "deer", "poaching"): ["Dosti ka ek usool hai madam - no black buck, no jail", "Mere baarein mein itna mat sochna. Court mein aata hoon Jail mein nahi", "Tujhe har goli ka hisaab dena parta hai... main jitni bhi chalaon... mujhe koi hisaab nahin dena parta"],
     ("lulia", "katrina", "aish", "aishwarya", "jacqueline"): ["Our business is our business, none of your business","Mujhe toh nihayati khurrat plus kamini honhaar biwi chahiye", "99% ladkiyo ko unka mann pasand ladka mil jaata hai. lekin 99%% ladko ko unki pasand ki ladkiya kabhi nahi milti", "Neeli chatri waale, agar tu hai toh meri fariyad sun. Is duniya mein kahi ladkiyan hai... ek toh, arre ek toh mere liye chun"]
 }
