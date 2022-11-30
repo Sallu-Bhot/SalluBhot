@@ -29,7 +29,7 @@ class SALLU_BHOT:
         #self.subreddit = self.reddit.subreddit('sallu_bhot_test+biggboss')
 
         # Set the subreddit stream to comments and posts
-        self.stream = praw.models.util.stream_generator(lambda **kwargs: submissions_and_comments(self.subreddit, **kwargs))
+        #self.stream = praw.models.util.stream_generator(lambda **kwargs: submissions_and_comments(self.subreddit, **kwargs))
         
         #bhaikadosth config
         self.army = config
@@ -183,13 +183,28 @@ class SALLU_BHOT:
                 pass
 
     def run(self):
-        for posts in self.stream:
+        while True:
             try:
-                self.sallutime(posts)
-            except Exception as e:
-                body = f"Sallu Bhot Error Report:\n{e}"
+                for posts in praw.models.util.stream_generator(lambda **kwargs: submissions_and_comments(self.subreddit, **kwargs)):
+                    try:
+                        self.sallutime(posts)
+                    except Exception as e:
+                        body = f"Sallu Bhot Error Report:\n{e}"
+                        print(body)
+                        time.sleep(2)
+                        pass
+            except (praw.exceptions.PRAWException, prawcore.exceptions.PrawcoreException) as e:
+                body = f"Reddit Stream Error Report:\n{e}"
                 print(body)
-                pass
+                self.send_webhook(body)
+                time.sleep(2)
+            except KeyboardInterrupt:
+                print("Keyboard termination received. Shutting Down!")
+                break
+            except Exception:
+                body = f"Unexpected Error Report:\n{e}"
+                print(body)
+                time.sleep(2)
 
 if __name__ == '__main__':
     sb = SALLU_BHOT().run()
