@@ -99,6 +99,9 @@ class SALLU_BHOT:
         if not checkTime(redditObject):
             skip = True
 
+        elif (not isComment(redditObject)) and (redditObject.link_flair_text == "no entry sallu bhot"):
+            skip = True
+
         # Skip if the author is none, or Vizzy.
         elif redditObject.author == None or redditObject.author.name == self.bot_username:
             skip = True
