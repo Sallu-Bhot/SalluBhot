@@ -29,9 +29,6 @@ class SALLU_BHOT:
         #self.subreddit = self.reddit.subreddit('sallu_bhot_test')
         self.subreddit = self.reddit.subreddit('sallu_bhot_test+biggboss')
 
-        # Set the subreddit stream to comments and posts
-        #self.stream = praw.models.util.stream_generator(lambda **kwargs: submissions_and_comments(self.subreddit, **kwargs))
-        
         #bhaikadosth config
         self.army = config
 
@@ -183,6 +180,16 @@ class SALLU_BHOT:
 
                         # Send a canon response
                     self.response_canon(redditObject, user_text)
+
+                #greet mesage
+                if isPost(redditObject) and checkPost(redditObject,user_text):
+                    #and Welcome to Bigg Boss Shanivaar ka vaar"
+                    greet = "*Hello, Namaste, Assalamu Alaikum, Sat Sri Akal, Kem Cho, Kasa Kai, Kedo Haal Hai, Kemon Acho!*"
+                    redditObject.reply(greet)
+                    writeComment(redditObject.id)
+                    link = f"\n{redditObject.author.name}: {self.getText(redditObject)}\nResponse: **'{greet}'** \nLink - https://www.reddit.com{redditObject.permalink}"
+                    self.send_webhook(link)
+
             except:
                 pass
 
@@ -200,13 +207,13 @@ class SALLU_BHOT:
             except (praw.exceptions.PRAWException, prawcore.exceptions.PrawcoreException) as e:
                 body = f"Reddit Stream Error Report:\n{e}"
                 print(body)
-                self.send_webhook(body)
                 time.sleep(2)
             except KeyboardInterrupt:
                 print("Keyboard termination received. Shutting Down!")
                 break
-            except Exception:
+            except Exception as e:
                 body = f"Unexpected Error Report:\n{e}"
+                self.send_webhook(body)
                 print(body)
                 time.sleep(2)
 

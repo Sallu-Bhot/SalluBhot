@@ -1,8 +1,23 @@
 #Specific Keyword Response
 trigger_dictionary = {
-    ("hit-n-run","run over","hit and run"): ["My driver, {}, was driving the car when the mishap occurred","Aap devil ke peeche, devil aapke peeche - too much fun!","Badminton court jao, tennis court jao, food court jao... lekin woh court mat jaana"],
-    ("black buck","blackbuck", "deer", "poaching"): ["Dosti ka ek usool hai madam - no black buck, no jail", "Mere baarein mein itna mat sochna. Court mein aata hoon Jail mein nahi", "Tujhe har goli ka hisaab dena parta hai... main jitni bhi chalaon... mujhe koi hisaab nahin dena parta"],
-    ("lulia", "katrina", "aish", "aishwarya", "jacqueline"): ["Our business is our business, none of your business","Mujhe toh nihayati khurrat plus kamini honhaar biwi chahiye", "99% ladkiyo ko unka mann pasand ladka mil jaata hai. lekin 99%% ladko ko unki pasand ki ladkiya kabhi nahi milti", "Neeli chatri waale, agar tu hai toh meri fariyad sun. Is duniya mein kahi ladkiyan hai... ek toh, arre ek toh mere liye chun"]
+    ("hit-n-run", "run over", "hit and run", "deer", "black buck", "blackbuck", "poaching", "hiran"): [
+    "My driver, {}, was driving the car when the mishap occurred",
+    "Aap devil ke peeche, devil aapke peeche - too much fun!",
+    "Badminton court jao, tennis court jao, food court jao... lekin woh court mat jaana",
+    "Chori ke aam ka har koi deewana... joh pakda gaya woh chor hai aur joh bach gaya woh sayana",
+    "Dosti ka ek usool hai madam - no black buck, no jail",
+    "Mere baarein mein itna mat sochna. Court mein aata hoon Jail mein nahi", 
+    "Tujhe har goli ka hisaab dena parta hai... main jitni bhi chalaon... mujhe koi hisaab nahin dena parta"],
+    
+    ("lulia", "katrina", "aish", "aishwarya", "jacqueline"): [
+    "Our business is our business, none of your business",
+    "Mujhe toh nihayati khurrat plus kamini honhaar biwi chahiye", 
+    "99% ladkiyo ko unka mann pasand ladka mil jaata hai. lekin 99%% ladko ko unki pasand ki ladkiya kabhi nahi milti", 
+    "Neeli chatri waale, agar tu hai toh meri fariyad sun. Is duniya mein kahi ladkiyan hai... ek toh, arre ek toh mere liye chun",
+    "Joh tumhari tarah shaadi ke chakkar mein phaste hai ... woh phir hamari tarah nahi haste hai",
+    "*Shaadi is mind blowing... sometimes blowing mind*",
+    "*Pyar badi hi khoobsurat cheez hai. lekin pyar akele todhi aata hai, apne saath complications bhi lekar aata hai*",
+    "Propose karne mein itna pause lega... toh woh tujhe dispose karke chali jayegi"]
 }
 
 
@@ -43,6 +58,7 @@ quotes = ["Boyfriend Girlfriend Se Darta Hai,  Girlfriend Cockroach Se Darti Hai
 "Main request nahi karta... ek hi baar bolta hoon... aur full and final ho jaata hai",
 "Jis school mein tune ye sab seekha hai na... uska headmaster aaj bhi mujhse tuition leta hai",
 "Dosti ka ek oosul hai madam... no sorry, no thank you",
+"*Jodi toh hoti hai gajar aur mooli ki, red and white absolutely bright. log kahenge dekho inka pyar, inka laad... just like a salad*",
 "*Chehre par gussa, mann mein gaali... goli bhi chalali... phir bhi dono haath khali*",
 "Badtameez, chaddar ki kameez, lohe ka pajama, bandar tera mama, arre billi teri mausi, kutta tera yaar, aam ka achaar... aaja mere yaar!",
 "*Woh jeena bhi koi jeena hai jis mein kick na ho*",
@@ -84,11 +100,33 @@ quotes = ["Boyfriend Girlfriend Se Darta Hai,  Girlfriend Cockroach Se Darti Hai
 "*Haste huye chehre ka gham padhna kitna mushkil hota hai.*",
 "Bina kuch kiye lene ke dene padh rahe hai... agar kuch by chance kar liye toh lene aur dene dono padh jayenge",
 "Badminton court jao, tennis court jao, food court jao... lekin woh court mat jaana!!",
-"{}, iss hafte aisa koi bhi incident bataiye jaha par aapne Archana ka saath diya ho?",
 "Aap sabko batana hai ke kis sadasya ki konsi galat fehmi hai, aur unka ek gubbara phodna hai. Start kijiye {0} se, Accha Yeh nahi keh sakte ki {0} khud ek galat fehmi hai!",
 "Kya permission doon mein? Isko jaan se maar dalo!!!",
 "Tell me straight out honestly, ya ye sirf mujhe hi dikhai de raha hai ke {} is obsessed with Shalin!",
 "Ek baat mein clear karna chah raha hu ke sabka khayal rakha jaa raha hai, aur team ko ya biggboss ko koyi shauk nahi hai biased hone ka.",
 "{} ye to ek bada hi ajeeb sa mamla ho gaya yaha par ke, aap iss sub ke andar dikh nahi rahe ho lekin logon ki baaton mein aapka zikr ho raha hai!",
-"Aapne hospital ka bahana lekar apni bacchi se baat karne ki khoshih ki hai!",
-"Humein iss prakar ka content nahi chahiye!"]
+"Humein iss prakar ka content nahi chahiye!",
+"*Ishak ke naam pe karte, Sabhi ab raas leela hai... Main karoon toh saala character dheela hai?*",
+"*Dil hai yeh sochta phir bhi nahi pata! Kis haq se kahun bata, Ke main hoon hero tera.*",
+"*Jabse tumne pyar ko samjha hai, pyar ko jana hai... sirf us hi se pyar kiya hai!*",
+"There is only one thing I cannot stand... a one night stand",
+"*Swarg mein uparwaala premiyon ki jodi banata hai... aur yahan dharti par unhe milata hai*",
+"Jab koi tumhe touch karta hai na... toh main bahut touchy ho jaata hoon!",
+"Joh tumhari tarah shaadi ke chakkar mein phaste hai. woh phir hamari tarah nahi haste hai",
+"Zindagi mein har kyun, why, kaiko... ka koi jawab nahi hota!",
+"*Agar tere paas nafrat ki taqat hai... toh mere paas ab mohabbat ki shakti hai*",
+"Duniya hum mein kehti hai Salman Khan, hum aapko kis naam se pukarein meri jaan?",
+"Chamche ho, dhundle mein bhi saaf nazar aa rahe ho... ab yeh clear karo ke teaspoon ho ya tablespoon?",
+"Main tumhari pungi bajaonga!!",
+"*Chori ke aam ka har koi deewana... joh pakda gaya woh chor hai aur joh bach gaya woh sayana*",
+"Agar isko laga daala, toh life jhingalala!",
+"Agar Priya Mercedes hai toh tu Maruti. agar Priya Boeing hai toh tu bhail-gadi. agar Priya Kohinoor ka heera hai toh tu Kohinoor ka basmati chawal. agar Priya kabil hai toh tu Kabuli chana",
+"Thanda peeke jao bahut garam ho gayi ho.",
+"Jhoot do kisam ke hote hai, ek bhalai ke liye aur ek burai ke liye!",
+"Ab sabke liye good news hai aur good news yeh hai ki, bad news samapth ho chuki hai!",
+"Style sikhaya ja sakta hai, saadgi yah simplicity nahi",
+"Joh aurat doosri aurat ki izzat na kare. hamari nazar mein woh aurat hi nahi!",
+"Ghar bada ho ya chota, ghar mein rehne waalo ka dil bada hona chahiye!",
+"*Yeh sher boodha zaroor ho gaya hai, lekin shikaar karna nahi bhoola.*",
+"Har cheez karo limit ke andar, lekin pyar limit ke bahut baahar.",
+"Tu Pune Ka naya Bhai hai, main pahle se Hindustan ka bhai hoon."]
