@@ -1,5 +1,5 @@
 #Specific Keyword Response
-trigger_dictionary = {
+keyword_dictionary = {
     ("hit-n-run", "run over", "hit and run", "deer", "black buck", "blackbuck", "poaching", "hiran"): [
     "My driver, {}, was driving the car when the mishap occurred",
     "Aap devil ke peeche, devil aapke peeche - too much fun!",
@@ -41,13 +41,10 @@ quotes = ["Boyfriend Girlfriend Se Darta Hai,  Girlfriend Cockroach Se Darti Hai
 "Jahan Lad-Ka Aur Lad-Ki Ho...  Wahan Lad-Na Toh Hoga Hi Na",
 "Aaisa Gayab Kar Doonga Ki Google.Com Bhi Tumhe Dhoond Na Payega",
 "(Takes off the coat) (Rolls up the sleeves)",
-"Yeh show aapke layak hai nahi, please leave my home",
 "**MAI AA JAU KYA APNI PAR!**",
-"Dude! {}!!! hadd mei rehna mere saath! You don't try what you try inside, with me!.. Ye kya hai? Time Out kya hai? Ye kisse baat kar rahe ho?",
 "Sirf ek hi aadmi real lag raha hai yaha par, aur wo hai {}",
 "{} you are doing really well. Jab sub me ghuse the tab beautiful man and now you are looking like a he-man. Everyone is really proud of you.",
 "*Do whatever you want to do man. Do double, but don't trouble your mother man*",
-"Kabhi toh stand liya karo",
 "Log kehte hai khoobsurat ladkiyan jab jhoot bolti hai... toh aur bhi khoobsurat lagti hai",
 "*Agar mujhe malum hota ki mujhe dekhkar tumhare chehre pe hazaar watt ki muskaan phail jati... toh main kab ka aa chuka hota*",
 "Sari duniya pyar mein padi hui hai... sirf ek mujhe hi haq nahi hai?... ki main kisi se pyar kar sakun, koi mujhse pyar kar sake... kyun?",
@@ -100,13 +97,7 @@ quotes = ["Boyfriend Girlfriend Se Darta Hai,  Girlfriend Cockroach Se Darti Hai
 "*Haste huye chehre ka gham padhna kitna mushkil hota hai.*",
 "Bina kuch kiye lene ke dene padh rahe hai... agar kuch by chance kar liye toh lene aur dene dono padh jayenge",
 "Badminton court jao, tennis court jao, food court jao... lekin woh court mat jaana!!",
-"Aap sabko batana hai ke kis sadasya ki konsi galat fehmi hai, aur unka ek gubbara phodna hai. Start kijiye {0} se, Accha Yeh nahi keh sakte ki {0} khud ek galat fehmi hai!",
-"Kya permission doon mein? Isko jaan se maar dalo!!!",
-"Tell me straight out honestly, ya ye sirf mujhe hi dikhai de raha hai ke {} is obsessed with Shalin!",
-"Ek baat mein clear karna chah raha hu ke sabka khayal rakha jaa raha hai, aur team ko ya biggboss ko koyi shauk nahi hai biased hone ka.",
-"{} ye to ek bada hi ajeeb sa mamla ho gaya yaha par ke, aap iss sub ke andar dikh nahi rahe ho lekin logon ki baaton mein aapka zikr ho raha hai!",
-"Humein iss prakar ka content nahi chahiye!",
-"*Ishak ke naam pe karte, Sabhi ab raas leela hai... Main karoon toh saala character dheela hai?*",
+"*Main karoon toh saala character dheela hai?*",
 "*Dil hai yeh sochta phir bhi nahi pata! Kis haq se kahun bata, Ke main hoon hero tera.*",
 "*Jabse tumne pyar ko samjha hai, pyar ko jana hai... sirf us hi se pyar kiya hai!*",
 "There is only one thing I cannot stand... a one night stand",
@@ -129,4 +120,23 @@ quotes = ["Boyfriend Girlfriend Se Darta Hai,  Girlfriend Cockroach Se Darti Hai
 "Ghar bada ho ya chota, ghar mein rehne waalo ka dil bada hona chahiye!",
 "*Yeh sher boodha zaroor ho gaya hai, lekin shikaar karna nahi bhoola.*",
 "Har cheez karo limit ke andar, lekin pyar limit ke bahut baahar.",
-"Tu Pune Ka naya Bhai hai, main pahle se Hindustan ka bhai hoon."]
+"Tu Pune Ka naya Bhai hai, main pahle se Hindustan ka bhai hoon."
+]
+
+
+biggboss = ["Yeh show aapke layak hai nahi, please leave my home",
+"Kabhi toh stand liya karo",
+"Aap sabko batana hai ke kis sadasya ki konsi galat fehmi hai, aur unka ek gubbara phodna hai. Start kijiye {0} se, Accha Yeh nahi keh sakte ki {0} khud ek galat fehmi hai!",
+"Kya permission doon mein? Isko jaan se maar dalo!!!",
+"Tell me straight out honestly, ya ye sirf mujhe hi dikhai de raha hai ke {} is obsessed with Shalin!",
+"Ek baat mein clear karna chah raha hu ke sabka khayal rakha jaa raha hai, aur team ko ya biggboss ko koyi shauk nahi hai biased hone ka.",
+"{} ye to ek bada hi ajeeb sa mamla ho gaya yaha par ke, aap iss sub ke andar dikh nahi rahe ho lekin logon ki baaton mein aapka zikr ho raha hai!",
+"Humein iss prakar ka content nahi chahiye!",
+"Aap sabko batana hai ke kis sadasya ki konsi galat fehmi hai, aur unka ek gubbara phodna hai. Start kijiye {0} se, Accha Yeh nahi keh sakte ki {0} khud ek galat fehmi hai!",
+"Kya permission doon mein? Isko jaan se maar dalo!!!",
+"Tell me straight out honestly, ya ye sirf mujhe hi dikhai de raha hai ke {} is obsessed with Shalin!",
+"Ek baat mein clear karna chah raha hu ke sabka khayal rakha jaa raha hai, aur team ko ya biggboss ko koyi shauk nahi hai biased hone ka.",
+"{} ye to ek bada hi ajeeb sa mamla ho gaya yaha par ke, aap iss sub ke andar dikh nahi rahe ho lekin logon ki baaton mein aapka zikr ho raha hai!",
+"Humein iss prakar ka content nahi chahiye!",
+"Dude! {}!!! hadd mei rehna mere saath! You don't try what you try inside, with me!.. Ye kya hai? Time Out kya hai? Ye kisse baat kar rahe ho?"
+]
