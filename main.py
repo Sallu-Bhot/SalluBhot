@@ -20,8 +20,8 @@ class SALLU_BHOT:
         )
 
         # Set the subreddits to monitor join with '+'
-        self.subreddit = self.reddit.subreddit('sallu_bhot_test')
-        #self.subreddit = self.reddit.subreddit('sallu_bhot_test+biggboss+BollyBlindsNGossip')
+        #self.subreddit = self.reddit.subreddit('sallu_bhot_test')
+        self.subreddit = self.reddit.subreddit('sallu_bhot_test+biggboss+BollyBlindsNGossip')
         
         #webhook url for discord notifications
         self.webhook_sb = os.getenv('webhook_sb')
