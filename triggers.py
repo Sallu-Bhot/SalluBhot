@@ -120,7 +120,9 @@ quotes = ["Boyfriend Girlfriend Se Darta Hai,  Girlfriend Cockroach Se Darti Hai
 "Ghar bada ho ya chota, ghar mein rehne waalo ka dil bada hona chahiye!",
 "*Yeh sher boodha zaroor ho gaya hai, lekin shikaar karna nahi bhoola.*",
 "Har cheez karo limit ke andar, lekin pyar limit ke bahut baahar.",
-"Tu Pune Ka naya Bhai hai, main pahle se Hindustan ka bhai hoon."
+"Tu Pune Ka naya Bhai hai, main pahle se Hindustan ka bhai hoon.",
+"Jab hum aapse kuch poochna chahe toh aap hum mein rokti hai; aur jab chup ho jaye toh tokti hai!",
+"Hamara Naam Hamari Personality ko sobha deta hai...Robin Hood Pandy urf CHULBUL PANDEY"
 ]
 
 

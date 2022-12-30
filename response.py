@@ -34,7 +34,7 @@ def get_comment_reply(text, author, sub):
             if find_word_in_text(text, trigger):  # If the Reddit comment contains the keyword
                 num = random.randint(0, len(responses) - 1)
                 response = responses[num] 
-                if "{}" in response: #check if string has {} and author
+                if "{}" in response or "{0}" in response: #check if string has {} and author
                     response = response.format(author)
                 return response #Return a random string that corresponds to the matched tuple
     
