@@ -44,6 +44,6 @@ def get_comment_reply(text, author, sub):
 
     num = random.randint(0, len(quotes) - 1)
     response = quotes[num]
-    if "{}" in response: #check if string has {} and author
+    if "{}" in response or "{0}" in response: #check if string has {} and author
         response = response.format(author)
     return response
