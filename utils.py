@@ -36,13 +36,14 @@ def checkTime(obj):
 
 
 def luck(text):
-    """ 1:10 chance of being triggered with common keywords """
+    """ 1:5 chance of being triggered with common keywords """
 
     random.seed()
     keys = ["sallu", "salman", "bhoi", "selmon", "savlon"]
-    if random.randrange(10) < 1:
+    if random.randrange(5) < 1:
         if any(key in text for key in keys):
-            return True
+            if "dulquer" not in text:
+                return True
     else:
         return False
 
