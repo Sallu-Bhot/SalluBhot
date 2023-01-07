@@ -134,11 +134,5 @@ biggboss = ["Yeh show aapke layak hai nahi, please leave my home",
 "Ek baat mein clear karna chah raha hu ke sabka khayal rakha jaa raha hai, aur team ko ya biggboss ko koyi shauk nahi hai biased hone ka.",
 "{} ye to ek bada hi ajeeb sa mamla ho gaya yaha par ke, aap iss sub ke andar dikh nahi rahe ho lekin logon ki baaton mein aapka zikr ho raha hai!",
 "Humein iss prakar ka content nahi chahiye!",
-"Aap sabko batana hai ke kis sadasya ki konsi galat fehmi hai, aur unka ek gubbara phodna hai. Start kijiye {0} se, Accha Yeh nahi keh sakte ki {0} khud ek galat fehmi hai!",
-"Kya permission doon mein? Isko jaan se maar dalo!!!",
-"Tell me straight out honestly, ya ye sirf mujhe hi dikhai de raha hai ke {} is obsessed with Shalin!",
-"Ek baat mein clear karna chah raha hu ke sabka khayal rakha jaa raha hai, aur team ko ya biggboss ko koyi shauk nahi hai biased hone ka.",
-"{} ye to ek bada hi ajeeb sa mamla ho gaya yaha par ke, aap iss sub ke andar dikh nahi rahe ho lekin logon ki baaton mein aapka zikr ho raha hai!",
-"Humein iss prakar ka content nahi chahiye!",
 "Dude! {}!!! hadd mei rehna mere saath! You don't try what you try inside, with me!.. Ye kya hai? Time Out kya hai? Ye kisse baat kar rahe ho?"
 ]

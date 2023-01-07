@@ -1,6 +1,6 @@
 import random
 import re
-from triggers import keyword_dictionary, quotes, biggboss
+from triggers import keyword_dictionary, quotes as quotes_og, biggboss
 
 
 def find_word_in_text(text, word):
@@ -28,6 +28,7 @@ def get_comment_reply(text, author, sub):
     :return: String to reply with for a keyword, Random quote if no Keyword is found
     """
     random.seed()
+    quotes =  quotes_og.copy()
 
     for triggers, responses in keyword_dictionary.items():  # For every keyword tuple in keyword_dictionary
         for trigger in triggers:  # For each keyword in the tuple
