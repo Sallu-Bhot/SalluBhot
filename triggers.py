@@ -122,7 +122,10 @@ quotes = ["Boyfriend Girlfriend Se Darta Hai,  Girlfriend Cockroach Se Darti Hai
 "Har cheez karo limit ke andar, lekin pyar limit ke bahut baahar.",
 "Tu Pune Ka naya Bhai hai, main pahle se Hindustan ka bhai hoon.",
 "Jab hum aapse kuch poochna chahe toh aap hum mein rokti hai; aur jab chup ho jaye toh tokti hai!",
-"Hamara Naam Hamari Personality ko sobha deta hai...Robin Hood Pandy urf CHULBUL PANDEY"
+"Hamara Naam Hamari Personality ko sobha deta hai...Robin Hood Pandy urf CHULBUL PANDEY",
+"Sahi ka hoga sahi... galat ka galat",
+"Jab shareer, dil aur dimaag mujhse kehte hai...bas bhai, no more...toh main kehta hoon, bring it on",
+"Mera koi naam nahi hai... lekin main Bhaijaan naam se jaana jaata hoon"
 ]
 
 

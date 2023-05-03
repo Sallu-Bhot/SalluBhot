@@ -96,7 +96,7 @@ class SALLU_BHOT:
             return True
 
         # Skip if the author is None (Someone deleted something)
-        if redditObject.author.name is None:
+        if redditObject.author is None:
             return True
 
         # Skip if the author is Sallu-Bhot
